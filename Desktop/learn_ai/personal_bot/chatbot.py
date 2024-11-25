@@ -8,8 +8,8 @@ def read_api_key(file_path):
     with open(file_path, 'r') as file:
         return file.read().strip()
 
-#api_key = read_api_key('api_key.txt')
-#openai.api_key = api_key
+api_key = read_api_key('text.txt')
+openai.api_key = api_key
 
 # Load knowledge base from a JSON file
 def load_knowledge_base(file_path: str) -> dict:
