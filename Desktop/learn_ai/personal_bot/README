@@ -1,0 +1,14 @@
+### Simple Chatbot
+
+This is a simple chatbot implemented in Python. The chatbot loads a knowledge base from a JSON file, interacts with the user by answering questions, and learns new responses based on user input. User interact with the chatbot by typing questions or type "quit" to exit the chat.
+
+### Features
+
+Load knowledge base from a JSON file.
+Find the best match for a user question using fuzzy string matching.
+Provide answers from the knowledge base or enable ChatGPT to find answer.
+Save the updated knowledge base back to the JSON file.
+
+### To Run:
+
+python3 chatbot.py
