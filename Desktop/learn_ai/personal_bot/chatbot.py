@@ -3,12 +3,12 @@
 import json
 import openai
 
-# Read API key from a text file
-def read_api_key(file_path):
+# Read key from a text file
+def read_text_key(file_path):
     with open(file_path, 'r') as file:
         return file.read().strip()
 
-api_key = read_api_key('text.txt')
+api_key = read_text_key('text.txt')
 openai.api_key = api_key
 
 # Load knowledge base from a JSON file
